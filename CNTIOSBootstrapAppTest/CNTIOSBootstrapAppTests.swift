@@ -1,14 +1,14 @@
 //
-//  UrbanLegendTests.swift
-//  UrbanLegendTests
+//  CNTIOSBootstrapAppTests.swift
+//  CNTIOSBootstrapAppTests
 //
 //  Created by John Harold Rasco on 4/13/22.
 //
 
 import XCTest
-@testable import UrbanLegend
+@testable import CNTIOSBootstrapApp
 
-class UrbanLegendTests: XCTestCase {
+class CNTIOSBootstrapAppTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

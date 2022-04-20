@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9FA6B0C4280692D500723A85 /* UrbanLegendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6B0C3280692D500723A85 /* UrbanLegendApp.swift */; };
-		9FA6B0C6280692D500723A85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6B0C5280692D500723A85 /* ContentView.swift */; };
-		9FA6B0C8280692D700723A85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA6B0C7280692D700723A85 /* Assets.xcassets */; };
-		9FA6B0CB280692D700723A85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FA6B0CA280692D700723A85 /* Preview Assets.xcassets */; };
-		9FA6B0D5280692D700723A85 /* UrbanLegendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6B0D4280692D700723A85 /* UrbanLegendTests.swift */; };
-		9FA6B0F02806998900723A85 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6B0EF2806998900723A85 /* AppState.swift */; };
-		9FE376EB28069DAB00C1FC00 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE376EA28069DAB00C1FC00 /* DependencyInjector.swift */; };
-		9FE376F02806D80C00C1FC00 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE376EF2806D80C00C1FC00 /* LoginView.swift */; };
-		9FE376F22806D87400C1FC00 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE376F12806D87400C1FC00 /* LoginViewModel.swift */; };
-		9FE376F42806DF7E00C1FC00 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE376F32806DF7E00C1FC00 /* ContentViewModel.swift */; };
-		9FE376F62806E77400C1FC00 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE376F52806E77400C1FC00 /* AppEnvironment.swift */; };
+		9F37F289280FB0B100122D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F37F279280FB0B100122D02 /* Assets.xcassets */; };
+		9F37F28A280FB0B100122D02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F37F27B280FB0B100122D02 /* Preview Assets.xcassets */; };
+		9F37F28B280FB0B100122D02 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F27D280FB0B100122D02 /* AppState.swift */; };
+		9F37F28C280FB0B100122D02 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F27E280FB0B100122D02 /* DependencyInjector.swift */; };
+		9F37F28D280FB0B100122D02 /* CNTIOSBootstrapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F280280FB0B100122D02 /* CNTIOSBootstrapApp.swift */; };
+		9F37F28E280FB0B100122D02 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F281280FB0B100122D02 /* AppEnvironment.swift */; };
+		9F37F28F280FB0B100122D02 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F283280FB0B100122D02 /* ContentViewModel.swift */; };
+		9F37F290280FB0B100122D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F285280FB0B100122D02 /* ContentView.swift */; };
+		9F37F291280FB0B100122D02 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F287280FB0B100122D02 /* LoginViewModel.swift */; };
+		9F37F292280FB0B100122D02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F288280FB0B100122D02 /* LoginView.swift */; };
+		9FA6B0D5280692D700723A85 /* CNTIOSBootstrapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6B0D4280692D700723A85 /* CNTIOSBootstrapAppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,19 +31,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9FA6B0C0280692D500723A85 /* UrbanLegend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UrbanLegend.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA6B0C3280692D500723A85 /* UrbanLegendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendApp.swift; sourceTree = "<group>"; };
-		9FA6B0C5280692D500723A85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9FA6B0C7280692D700723A85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9FA6B0CA280692D700723A85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9FA6B0D0280692D700723A85 /* UrbanLegendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbanLegendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FA6B0D4280692D700723A85 /* UrbanLegendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanLegendTests.swift; sourceTree = "<group>"; };
-		9FA6B0EF2806998900723A85 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		9FE376EA28069DAB00C1FC00 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
-		9FE376EF2806D80C00C1FC00 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		9FE376F12806D87400C1FC00 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		9FE376F32806DF7E00C1FC00 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		9FE376F52806E77400C1FC00 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		9F37F279280FB0B100122D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F37F27B280FB0B100122D02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F37F27D280FB0B100122D02 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		9F37F27E280FB0B100122D02 /* DependencyInjector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		9F37F280280FB0B100122D02 /* CNTIOSBootstrapApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CNTIOSBootstrapApp.swift; sourceTree = "<group>"; };
+		9F37F281280FB0B100122D02 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		9F37F283280FB0B100122D02 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		9F37F285280FB0B100122D02 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F37F287280FB0B100122D02 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		9F37F288280FB0B100122D02 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9FA6B0C0280692D500723A85 /* CNTIOSBootstrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNTIOSBootstrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA6B0D0280692D700723A85 /* CNTIOSBootstrapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNTIOSBootstrapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA6B0D4280692D700723A85 /* CNTIOSBootstrapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTIOSBootstrapAppTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +64,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F37F278280FB0B100122D02 /* CNTIOSBootstrapApp */ = {
+			isa = PBXGroup;
+			children = (
+				9F37F27F280FB0B100122D02 /* System */,
+				9F37F27C280FB0B100122D02 /* Injected */,
+				9F37F282280FB0B100122D02 /* Modules */,
+				9F37F293280FB18200122D02 /* Resources */,
+			);
+			path = CNTIOSBootstrapApp;
+			sourceTree = "<group>";
+		};
+		9F37F27C280FB0B100122D02 /* Injected */ = {
+			isa = PBXGroup;
+			children = (
+				9F37F27D280FB0B100122D02 /* AppState.swift */,
+				9F37F27E280FB0B100122D02 /* DependencyInjector.swift */,
+			);
+			path = Injected;
+			sourceTree = "<group>";
+		};
+		9F37F27F280FB0B100122D02 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				9F37F280280FB0B100122D02 /* CNTIOSBootstrapApp.swift */,
+				9F37F281280FB0B100122D02 /* AppEnvironment.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		9F37F282280FB0B100122D02 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9F37F283280FB0B100122D02 /* ContentViewModel.swift */,
+				9F37F285280FB0B100122D02 /* ContentView.swift */,
+				9F37F284280FB0B100122D02 /* MyCampaigns */,
+				9F37F286280FB0B100122D02 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9F37F284280FB0B100122D02 /* MyCampaigns */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyCampaigns;
+			sourceTree = "<group>";
+		};
+		9F37F286280FB0B100122D02 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F37F287280FB0B100122D02 /* LoginViewModel.swift */,
+				9F37F288280FB0B100122D02 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9F37F293280FB18200122D02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F37F279280FB0B100122D02 /* Assets.xcassets */,
+				9F37F27B280FB0B100122D02 /* Preview Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9FA6B0B7280692D500723A85 = {
 			isa = PBXGroup;
 			children = (
-				9FA6B0C2280692D500723A85 /* UrbanLegend */,
-				9FA6B0D3280692D700723A85 /* UrbanLegendTests */,
+				9F37F278280FB0B100122D02 /* CNTIOSBootstrapApp */,
+				9FA6B0D3280692D700723A85 /* CNTIOSBootstrapAppTests */,
 				9FA6B0C1280692D500723A85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,91 +141,27 @@
 		9FA6B0C1280692D500723A85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FA6B0C0280692D500723A85 /* UrbanLegend.app */,
-				9FA6B0D0280692D700723A85 /* UrbanLegendTests.xctest */,
+				9FA6B0C0280692D500723A85 /* CNTIOSBootstrapApp.app */,
+				9FA6B0D0280692D700723A85 /* CNTIOSBootstrapAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FA6B0C2280692D500723A85 /* UrbanLegend */ = {
+		9FA6B0D3280692D700723A85 /* CNTIOSBootstrapAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				9FA6B0ED2806972600723A85 /* System */,
-				9FA6B0EE2806997600723A85 /* Injected */,
-				9FE376EC2806D6C800C1FC00 /* Modules */,
-				9FA6B0C7280692D700723A85 /* Assets.xcassets */,
-				9FA6B0C9280692D700723A85 /* Preview Content */,
+				9FA6B0D4280692D700723A85 /* CNTIOSBootstrapAppTests.swift */,
 			);
-			path = UrbanLegend;
-			sourceTree = "<group>";
-		};
-		9FA6B0C9280692D700723A85 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				9FA6B0CA280692D700723A85 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		9FA6B0D3280692D700723A85 /* UrbanLegendTests */ = {
-			isa = PBXGroup;
-			children = (
-				9FA6B0D4280692D700723A85 /* UrbanLegendTests.swift */,
-			);
-			path = UrbanLegendTests;
-			sourceTree = "<group>";
-		};
-		9FA6B0ED2806972600723A85 /* System */ = {
-			isa = PBXGroup;
-			children = (
-				9FA6B0C3280692D500723A85 /* UrbanLegendApp.swift */,
-				9FE376F52806E77400C1FC00 /* AppEnvironment.swift */,
-			);
-			path = System;
-			sourceTree = "<group>";
-		};
-		9FA6B0EE2806997600723A85 /* Injected */ = {
-			isa = PBXGroup;
-			children = (
-				9FA6B0EF2806998900723A85 /* AppState.swift */,
-				9FE376EA28069DAB00C1FC00 /* DependencyInjector.swift */,
-			);
-			path = Injected;
-			sourceTree = "<group>";
-		};
-		9FE376EC2806D6C800C1FC00 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				9FE376F32806DF7E00C1FC00 /* ContentViewModel.swift */,
-				9FA6B0C5280692D500723A85 /* ContentView.swift */,
-				9FE376ED2806D6E500C1FC00 /* Login */,
-				9FE376EE2806D7E800C1FC00 /* MyCampaigns */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		9FE376ED2806D6E500C1FC00 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				9FE376F12806D87400C1FC00 /* LoginViewModel.swift */,
-				9FE376EF2806D80C00C1FC00 /* LoginView.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		9FE376EE2806D7E800C1FC00 /* MyCampaigns */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MyCampaigns;
+			name = CNTIOSBootstrapAppTests;
+			path = CNTIOSBootstrapAppTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FA6B0BF280692D500723A85 /* UrbanLegend */ = {
+		9FA6B0BF280692D500723A85 /* CNTIOSBootstrapApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA6B0E4280692D700723A85 /* Build configuration list for PBXNativeTarget "UrbanLegend" */;
+			buildConfigurationList = 9FA6B0E4280692D700723A85 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapApp" */;
 			buildPhases = (
 				9FA6B0BC280692D500723A85 /* Sources */,
 				9FA6B0BD280692D500723A85 /* Frameworks */,
@@ -170,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = UrbanLegend;
+			name = CNTIOSBootstrapApp;
 			productName = UrbanLegend;
-			productReference = 9FA6B0C0280692D500723A85 /* UrbanLegend.app */;
+			productReference = 9FA6B0C0280692D500723A85 /* CNTIOSBootstrapApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FA6B0CF280692D700723A85 /* UrbanLegendTests */ = {
+		9FA6B0CF280692D700723A85 /* CNTIOSBootstrapAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FA6B0E7280692D700723A85 /* Build configuration list for PBXNativeTarget "UrbanLegendTests" */;
+			buildConfigurationList = 9FA6B0E7280692D700723A85 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapAppTests" */;
 			buildPhases = (
 				9FA6B0CC280692D700723A85 /* Sources */,
 				9FA6B0CD280692D700723A85 /* Frameworks */,
@@ -188,9 +189,9 @@
 			dependencies = (
 				9FA6B0D2280692D700723A85 /* PBXTargetDependency */,
 			);
-			name = UrbanLegendTests;
+			name = CNTIOSBootstrapAppTests;
 			productName = UrbanLegendTests;
-			productReference = 9FA6B0D0280692D700723A85 /* UrbanLegendTests.xctest */;
+			productReference = 9FA6B0D0280692D700723A85 /* CNTIOSBootstrapAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FA6B0BB280692D500723A85 /* Build configuration list for PBXProject "UrbanLegend" */;
+			buildConfigurationList = 9FA6B0BB280692D500723A85 /* Build configuration list for PBXProject "CNTIOSBootstrapApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,8 +226,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FA6B0BF280692D500723A85 /* UrbanLegend */,
-				9FA6B0CF280692D700723A85 /* UrbanLegendTests */,
+				9FA6B0BF280692D500723A85 /* CNTIOSBootstrapApp */,
+				9FA6B0CF280692D700723A85 /* CNTIOSBootstrapAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,8 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA6B0CB280692D700723A85 /* Preview Assets.xcassets in Resources */,
-				9FA6B0C8280692D700723A85 /* Assets.xcassets in Resources */,
+				9F37F28A280FB0B100122D02 /* Preview Assets.xcassets in Resources */,
+				9F37F289280FB0B100122D02 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,14 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FE376EB28069DAB00C1FC00 /* DependencyInjector.swift in Sources */,
-				9FA6B0F02806998900723A85 /* AppState.swift in Sources */,
-				9FE376F22806D87400C1FC00 /* LoginViewModel.swift in Sources */,
-				9FE376F42806DF7E00C1FC00 /* ContentViewModel.swift in Sources */,
-				9FA6B0C6280692D500723A85 /* ContentView.swift in Sources */,
-				9FE376F62806E77400C1FC00 /* AppEnvironment.swift in Sources */,
-				9FE376F02806D80C00C1FC00 /* LoginView.swift in Sources */,
-				9FA6B0C4280692D500723A85 /* UrbanLegendApp.swift in Sources */,
+				9F37F28D280FB0B100122D02 /* CNTIOSBootstrapApp.swift in Sources */,
+				9F37F28E280FB0B100122D02 /* AppEnvironment.swift in Sources */,
+				9F37F290280FB0B100122D02 /* ContentView.swift in Sources */,
+				9F37F28C280FB0B100122D02 /* DependencyInjector.swift in Sources */,
+				9F37F28B280FB0B100122D02 /* AppState.swift in Sources */,
+				9F37F28F280FB0B100122D02 /* ContentViewModel.swift in Sources */,
+				9F37F292280FB0B100122D02 /* LoginView.swift in Sources */,
+				9F37F291280FB0B100122D02 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FA6B0D5280692D700723A85 /* UrbanLegendTests.swift in Sources */,
+				9FA6B0D5280692D700723A85 /* CNTIOSBootstrapAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +280,7 @@
 /* Begin PBXTargetDependency section */
 		9FA6B0D2280692D700723A85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FA6B0BF280692D500723A85 /* UrbanLegend */;
+			target = 9FA6B0BF280692D500723A85 /* CNTIOSBootstrapApp */;
 			targetProxy = 9FA6B0D1280692D700723A85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -408,7 +409,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UrbanLegend/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CNTIOSBootstrapApp/Resources\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -421,8 +422,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.urbanlegend.UrbanLegend;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnt.CNTIOSBootstrapApp;
+				PRODUCT_NAME = CNTIOSBootstrapApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,7 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"UrbanLegend/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CNTIOSBootstrapApp/Resources\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -449,8 +450,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.urbanlegend.UrbanLegend;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cnt.CNTIOSBootstrapApp;
+				PRODUCT_NAME = CNTIOSBootstrapApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,7 +473,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanLegend.app/UrbanLegend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNTIOSBootstrapApp.app/CNTIOSBootstrapApp";
 			};
 			name = Debug;
 		};
@@ -491,14 +492,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UrbanLegend.app/UrbanLegend";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CNTIOSBootstrapApp.app/CNTIOSBootstrapApp";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FA6B0BB280692D500723A85 /* Build configuration list for PBXProject "UrbanLegend" */ = {
+		9FA6B0BB280692D500723A85 /* Build configuration list for PBXProject "CNTIOSBootstrapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA6B0E2280692D700723A85 /* Debug */,
@@ -507,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA6B0E4280692D700723A85 /* Build configuration list for PBXNativeTarget "UrbanLegend" */ = {
+		9FA6B0E4280692D700723A85 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA6B0E5280692D700723A85 /* Debug */,
@@ -516,7 +517,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FA6B0E7280692D700723A85 /* Build configuration list for PBXNativeTarget "UrbanLegendTests" */ = {
+		9FA6B0E7280692D700723A85 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FA6B0E8280692D700723A85 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  UrbanLegend
+//  CNTIOSBootstrapApp
 //
 //  Created by John Harold Rasco on 4/13/22.
 //

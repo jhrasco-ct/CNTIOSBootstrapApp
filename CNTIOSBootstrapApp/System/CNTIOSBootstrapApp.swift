@@ -1,6 +1,6 @@
 //
-//  UrbanLegendApp.swift
-//  UrbanLegend
+//  CNTIOSBootstrapApp.swift
+//  CNTIOSBootstrapApp
 //
 //  Created by John Harold Rasco on 4/13/22.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct UrbanLegendApp: App {
+struct CNTIOSBootstrapApp: App {
     var body: some Scene {
         WindowGroup {
             let environment = AppEnvironment.bootstrap()
