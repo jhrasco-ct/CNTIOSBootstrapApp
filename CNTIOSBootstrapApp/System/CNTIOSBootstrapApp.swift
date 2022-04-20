@@ -12,7 +12,7 @@ struct CNTIOSBootstrapApp: App {
     var body: some Scene {
         WindowGroup {
             let environment = AppEnvironment.bootstrap()
-            ContentView(viewModel: .init(container: environment.container))
+            ContentView(container: environment.container)
         }
     }
 }

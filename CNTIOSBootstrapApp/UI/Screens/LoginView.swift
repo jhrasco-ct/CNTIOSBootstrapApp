@@ -9,15 +9,16 @@ import SwiftUI
 
 struct LoginView: View {
 
-    @ObservedObject var viewModel: LoginViewModel
+    @Environment(\.injected) private var injected: DIContainer
 
     var body: some View {
-        Text("Login Screen")
+        Text("Log In")
     }
 }
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView(viewModel: .init(container: .init(appState: .init())))
+        LoginView()
+            .environment(\.injected, .preview)
     }
 }

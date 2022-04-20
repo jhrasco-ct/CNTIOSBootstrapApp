@@ -8,22 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    init(container: DIContainer) {
+        self.container = container
+    }
 
-    @ObservedObject var viewModel: ContentViewModel
+    private let container: DIContainer
 
     var body: some View {
         Group {
-            if viewModel.isLoggedIn {
-                LoginView(viewModel: .init(container: viewModel.container))
+            if container.appState.value.userData.isLoggedIn {
+                MyCampaignsView()
             } else {
-                LoginView(viewModel: .init(container: viewModel.container))
+                LoginView()
             }
         }
     }
 }
 
+// MARK: - Preview
+
+#if DEBUG
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(viewModel: .init(container: .init(appState: .init())))
+        ContentView(container: .preview)
     }
 }
+#endif
