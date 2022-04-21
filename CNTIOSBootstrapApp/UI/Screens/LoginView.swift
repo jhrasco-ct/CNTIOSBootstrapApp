@@ -6,13 +6,39 @@
 //
 
 import SwiftUI
+import JGProgressHUD_SwiftUI
 
 struct LoginView: View {
 
     @Environment(\.injected) private var injected: DIContainer
+    @EnvironmentObject var hudCoordinator: JGProgressHUDCoordinator
 
     var body: some View {
-        Text("Log In")
+        VStack {
+            Button(action: logIn) {
+                Text("Log In")
+                    .frame(maxWidth: .infinity, minHeight: 50.0)
+                    .background(Color(R.color.blue))
+                    .foregroundColor(.white)
+            }
+        }
+        .padding(EdgeInsets.init(top: 0.0, leading: 24.0, bottom: 0.0, trailing: 24.0))
+        .onReceive(injected.appState) {
+            switch $0.userData.user {
+            case .isLoading:
+                hudCoordinator.showHUD { .init() }
+            default:
+                hudCoordinator.presentedHUD?.dismiss(animated: true)
+            }
+        }
+    }
+}
+
+extension LoginView {
+
+    private func logIn() {
+        injected.interactors.authInteractor
+            .logIn(username: "test", password: "test")
     }
 }
 

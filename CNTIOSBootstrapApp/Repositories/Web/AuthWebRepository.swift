@@ -21,6 +21,7 @@ struct RealAuthWebRepository: AuthWebRepository {
 
     func logIn(username: String, password: String) -> AnyPublisher<User, Never> {
         Just(User(id: "0"))
+            .delay(for: .seconds(1), scheduler: DispatchQueue.main)
             .eraseToAnyPublisher()
     }
 }

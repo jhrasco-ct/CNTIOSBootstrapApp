@@ -12,7 +12,6 @@ import SwiftUI
 typealias LoadableBinding<Value> = Binding<Loadable<Value>>
 
 enum Loadable<T> {
-
     case notRequested
     case isLoading(last: T?, cancelBag: CancelBag)
     case loaded(T)
@@ -48,8 +47,7 @@ extension Loadable {
             } else {
                 let error = NSError(
                     domain: NSCocoaErrorDomain, code: NSUserCancelledError,
-                    userInfo: [NSLocalizedDescriptionKey: NSLocalizedString("Canceled by user",
-                                                                            comment: "")])
+                    userInfo: [NSLocalizedDescriptionKey: NSLocalizedString("Canceled by user", comment: "")])
                 self = .failed(error)
             }
         default: break

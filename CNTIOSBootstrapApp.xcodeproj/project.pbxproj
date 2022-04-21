@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F003EF328113FAE0045C759 /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F003EF228113FAE0045C759 /* Rswift */; };
+		9F003EF6281142610045C759 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EF5281142610045C759 /* R.generated.swift */; };
+		9F003EF9281144DA0045C759 /* ColorResource+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EF8281144DA0045C759 /* ColorResource+SwiftUI.swift */; };
+		9F003EFB281145080045C759 /* ImageResource+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EFA281145080045C759 /* ImageResource+SwiftUI.swift */; };
+		9F003EFD2811452A0045C759 /* FontResource+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EFC2811452A0045C759 /* FontResource+SwiftUI.swift */; };
+		9F003EFF281159D30045C759 /* WebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F003EFE281159D30045C759 /* WebRepository.swift */; };
 		9F37F289280FB0B100122D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F37F279280FB0B100122D02 /* Assets.xcassets */; };
 		9F37F28A280FB0B100122D02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F37F27B280FB0B100122D02 /* Preview Assets.xcassets */; };
 		9F37F28B280FB0B100122D02 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F27D280FB0B100122D02 /* AppState.swift */; };
@@ -15,16 +21,18 @@
 		9F37F28E280FB0B100122D02 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F281280FB0B100122D02 /* AppEnvironment.swift */; };
 		9F37F290280FB0B100122D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F285280FB0B100122D02 /* ContentView.swift */; };
 		9F37F292280FB0B100122D02 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F288280FB0B100122D02 /* LoginView.swift */; };
-		9F37F295280FB47F00122D02 /* MyCampaignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F294280FB47F00122D02 /* MyCampaignsView.swift */; };
+		9F37F295280FB47F00122D02 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F294280FB47F00122D02 /* HomeView.swift */; };
 		9F37F29A280FD3F800122D02 /* InteractorsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F299280FD3F800122D02 /* InteractorsContainer.swift */; };
 		9F37F29C280FD87D00122D02 /* AuthInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F29B280FD87D00122D02 /* AuthInteractor.swift */; };
 		9F37F2A0280FEE0B00122D02 /* AuthWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F29F280FEE0B00122D02 /* AuthWebRepository.swift */; };
-		9F37F2A4280FF33400122D02 /* APITargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F2A3280FF33400122D02 /* APITargetType.swift */; };
-		9F37F2A6280FF58A00122D02 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F2A5280FF58A00122D02 /* AuthAPI.swift */; };
+		9F37F2A4280FF33400122D02 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F2A3280FF33400122D02 /* Endpoint.swift */; };
+		9F37F2A6280FF58A00122D02 /* AuthEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F2A5280FF58A00122D02 /* AuthEndpoint.swift */; };
 		9F37F2A92810008500122D02 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F2A82810008500122D02 /* User.swift */; };
 		9F37F2AB28101FD800122D02 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F2AA28101FD800122D02 /* Loadable.swift */; };
 		9F37F2AD2810214000122D02 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F37F2AC2810214000122D02 /* CancelBag.swift */; };
 		9FA6B0D5280692D700723A85 /* CNTIOSBootstrapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA6B0D4280692D700723A85 /* CNTIOSBootstrapAppTests.swift */; };
+		9FB1DE5C2811007100E433A0 /* JGProgressHUD-SwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9FB1DE5B2811007100E433A0 /* JGProgressHUD-SwiftUI */; };
+		9FB1DE5E281139D600E433A0 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB1DE5D281139D600E433A0 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F003EF5281142610045C759 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		9F003EF8281144DA0045C759 /* ColorResource+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorResource+SwiftUI.swift"; sourceTree = "<group>"; };
+		9F003EFA281145080045C759 /* ImageResource+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageResource+SwiftUI.swift"; sourceTree = "<group>"; };
+		9F003EFC2811452A0045C759 /* FontResource+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FontResource+SwiftUI.swift"; sourceTree = "<group>"; };
+		9F003EFE281159D30045C759 /* WebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRepository.swift; sourceTree = "<group>"; };
 		9F37F279280FB0B100122D02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F37F27B280FB0B100122D02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F37F27D280FB0B100122D02 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
@@ -46,18 +59,19 @@
 		9F37F281280FB0B100122D02 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		9F37F285280FB0B100122D02 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9F37F288280FB0B100122D02 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		9F37F294280FB47F00122D02 /* MyCampaignsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCampaignsView.swift; sourceTree = "<group>"; };
+		9F37F294280FB47F00122D02 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9F37F299280FD3F800122D02 /* InteractorsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorsContainer.swift; sourceTree = "<group>"; };
 		9F37F29B280FD87D00122D02 /* AuthInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInteractor.swift; sourceTree = "<group>"; };
 		9F37F29F280FEE0B00122D02 /* AuthWebRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWebRepository.swift; sourceTree = "<group>"; };
-		9F37F2A3280FF33400122D02 /* APITargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITargetType.swift; sourceTree = "<group>"; };
-		9F37F2A5280FF58A00122D02 /* AuthAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		9F37F2A3280FF33400122D02 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		9F37F2A5280FF58A00122D02 /* AuthEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEndpoint.swift; sourceTree = "<group>"; };
 		9F37F2A82810008500122D02 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9F37F2AA28101FD800122D02 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		9F37F2AC2810214000122D02 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
 		9FA6B0C0280692D500723A85 /* CNTIOSBootstrapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNTIOSBootstrapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA6B0D0280692D700723A85 /* CNTIOSBootstrapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CNTIOSBootstrapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA6B0D4280692D700723A85 /* CNTIOSBootstrapAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNTIOSBootstrapAppTests.swift; sourceTree = "<group>"; };
+		9FB1DE5D281139D600E433A0 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB1DE5C2811007100E433A0 /* JGProgressHUD-SwiftUI in Frameworks */,
+				9F003EF328113FAE0045C759 /* Rswift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F003EF7281144A10045C759 /* R+SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				9F003EF8281144DA0045C759 /* ColorResource+SwiftUI.swift */,
+				9F003EFA281145080045C759 /* ImageResource+SwiftUI.swift */,
+				9F003EFC2811452A0045C759 /* FontResource+SwiftUI.swift */,
+			);
+			path = "R+SwiftUI";
+			sourceTree = "<group>";
+		};
 		9F37F278280FB0B100122D02 /* CNTIOSBootstrapApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,7 +149,10 @@
 		9F37F293280FB18200122D02 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9F003EF7281144A10045C759 /* R+SwiftUI */,
+				9F003EF5281142610045C759 /* R.generated.swift */,
 				9F37F279280FB0B100122D02 /* Assets.xcassets */,
+				9FB1DE5D281139D600E433A0 /* Colors.xcassets */,
 				9F37F27B280FB0B100122D02 /* Preview Assets.xcassets */,
 			);
 			path = Resources;
@@ -142,7 +171,7 @@
 			children = (
 				9F37F285280FB0B100122D02 /* ContentView.swift */,
 				9F37F288280FB0B100122D02 /* LoginView.swift */,
-				9F37F294280FB47F00122D02 /* MyCampaignsView.swift */,
+				9F37F294280FB47F00122D02 /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -158,7 +187,8 @@
 		9F37F2A1280FF0EC00122D02 /* Web */ = {
 			isa = PBXGroup;
 			children = (
-				9F37F2A5280FF58A00122D02 /* AuthAPI.swift */,
+				9F003EFE281159D30045C759 /* WebRepository.swift */,
+				9F37F2A5280FF58A00122D02 /* AuthEndpoint.swift */,
 				9F37F29F280FEE0B00122D02 /* AuthWebRepository.swift */,
 			);
 			path = Web;
@@ -167,7 +197,7 @@
 		9F37F2A2280FF2EF00122D02 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				9F37F2A3280FF33400122D02 /* APITargetType.swift */,
+				9F37F2A3280FF33400122D02 /* Endpoint.swift */,
 				9F37F2AA28101FD800122D02 /* Loadable.swift */,
 				9F37F2AC2810214000122D02 /* CancelBag.swift */,
 			);
@@ -216,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FA6B0E4280692D700723A85 /* Build configuration list for PBXNativeTarget "CNTIOSBootstrapApp" */;
 			buildPhases = (
+				9F003EF4281141E10045C759 /* ShellScript */,
 				9FA6B0BC280692D500723A85 /* Sources */,
 				9FA6B0BD280692D500723A85 /* Frameworks */,
 				9FA6B0BE280692D500723A85 /* Resources */,
@@ -225,6 +256,10 @@
 			dependencies = (
 			);
 			name = CNTIOSBootstrapApp;
+			packageProductDependencies = (
+				9FB1DE5B2811007100E433A0 /* JGProgressHUD-SwiftUI */,
+				9F003EF228113FAE0045C759 /* Rswift */,
+			);
 			productName = UrbanLegend;
 			productReference = 9FA6B0C0280692D500723A85 /* CNTIOSBootstrapApp.app */;
 			productType = "com.apple.product-type.application";
@@ -275,6 +310,10 @@
 				Base,
 			);
 			mainGroup = 9FA6B0B7280692D500723A85;
+			packageReferences = (
+				9FB1DE5A2811007100E433A0 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */,
+				9F003EF128113FAE0045C759 /* XCRemoteSwiftPackageReference "R.swift" */,
+			);
 			productRefGroup = 9FA6B0C1280692D500723A85 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -290,6 +329,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB1DE5E281139D600E433A0 /* Colors.xcassets in Resources */,
 				9F37F28A280FB0B100122D02 /* Preview Assets.xcassets in Resources */,
 				9F37F289280FB0B100122D02 /* Assets.xcassets in Resources */,
 			);
@@ -304,6 +344,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9F003EF4281141E10045C759 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$SRCROOT/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FA6B0BC280692D500723A85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -311,19 +373,24 @@
 			files = (
 				9F37F2A92810008500122D02 /* User.swift in Sources */,
 				9F37F2AB28101FD800122D02 /* Loadable.swift in Sources */,
-				9F37F295280FB47F00122D02 /* MyCampaignsView.swift in Sources */,
+				9F37F295280FB47F00122D02 /* HomeView.swift in Sources */,
 				9F37F28D280FB0B100122D02 /* CNTIOSBootstrapApp.swift in Sources */,
 				9F37F28E280FB0B100122D02 /* AppEnvironment.swift in Sources */,
 				9F37F290280FB0B100122D02 /* ContentView.swift in Sources */,
-				9F37F2A6280FF58A00122D02 /* AuthAPI.swift in Sources */,
+				9F003EF9281144DA0045C759 /* ColorResource+SwiftUI.swift in Sources */,
+				9F37F2A6280FF58A00122D02 /* AuthEndpoint.swift in Sources */,
 				9F37F2A0280FEE0B00122D02 /* AuthWebRepository.swift in Sources */,
 				9F37F28C280FB0B100122D02 /* DependencyInjector.swift in Sources */,
 				9F37F29C280FD87D00122D02 /* AuthInteractor.swift in Sources */,
 				9F37F28B280FB0B100122D02 /* AppState.swift in Sources */,
+				9F003EF6281142610045C759 /* R.generated.swift in Sources */,
 				9F37F2AD2810214000122D02 /* CancelBag.swift in Sources */,
-				9F37F2A4280FF33400122D02 /* APITargetType.swift in Sources */,
+				9F37F2A4280FF33400122D02 /* Endpoint.swift in Sources */,
 				9F37F29A280FD3F800122D02 /* InteractorsContainer.swift in Sources */,
+				9F003EFF281159D30045C759 /* WebRepository.swift in Sources */,
 				9F37F292280FB0B100122D02 /* LoginView.swift in Sources */,
+				9F003EFD2811452A0045C759 /* FontResource+SwiftUI.swift in Sources */,
+				9F003EFB281145080045C759 /* ImageResource+SwiftUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +470,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -457,6 +525,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -587,6 +656,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F003EF128113FAE0045C759 /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9FB1DE5A2811007100E433A0 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD-SwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F003EF228113FAE0045C759 /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F003EF128113FAE0045C759 /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = Rswift;
+		};
+		9FB1DE5B2811007100E433A0 /* JGProgressHUD-SwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FB1DE5A2811007100E433A0 /* XCRemoteSwiftPackageReference "JGProgressHUD-SwiftUI" */;
+			productName = "JGProgressHUD-SwiftUI";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9FA6B0B8280692D500723A85 /* Project object */;
 }

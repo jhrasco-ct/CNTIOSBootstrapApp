@@ -14,5 +14,6 @@ struct AppState: Equatable {
 extension AppState {
     struct UserData: Equatable {
         var isLoggedIn = false
+        var user = Loadable<User>.notRequested
     }
 }

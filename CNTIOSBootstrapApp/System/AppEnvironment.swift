@@ -42,8 +42,9 @@ extension AppEnvironment {
                                               webRepositories: DIContainer.WebRepositories) -> DIContainer.Interactors {
         let authInteractor = RealAuthInteractor(
             authWebRepository: webRepositories.authWebRepository,
+            userDefaults: .standard,
             appState: appState)
-
+        
         return .init(authInteractor: authInteractor)
     }
 }
